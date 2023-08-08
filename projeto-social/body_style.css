@@ -5,7 +5,7 @@
     padding: 0px;
 }
 
-body, html{
+html, body{
     width: 100vw;
     height: 100vh;
 }
@@ -17,7 +17,7 @@ body{
 }
 
 main{
-    position: relative;
+
     height: 100vh;
 }
 
@@ -26,15 +26,15 @@ main{
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+    height: 627px;
+    width: 311px;
+    background: url(imagens/frame-iphone.png);
 }
 
-#content{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-}
-iframe{
+iframe#tela{
+    position: relative;
+    left: 23px;
+    top: 81px;
+    width: 266px;
     height: 470px;
-    width: 200px;
 }
