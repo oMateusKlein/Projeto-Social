@@ -32,8 +32,8 @@ main{
 
 iframe#tela{
     position: relative;
-    left: 23px;
-    top: 81px;
+    left: 22px;
+    top: 80px;
     width: 267px;
     height: 470px;
 }
@@ -53,5 +53,5 @@ section#redes img:hover{
     border: 2px solid rgba(0, 0, 0, 0.315);
     transform: translate(-3px, -3px);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
-    transition: transform 0,5s;
+    transition: transform 0.5s;
 }
